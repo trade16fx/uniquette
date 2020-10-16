@@ -1,1 +1,82 @@
-<h2>Это хедер</h2>
+<div class="top-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 col-md-1 d-lg-none">
+        @@include('../../modules/burger/_burger.html')
+      </div>
+      <div class="col-6 col-md-3 top-area__left">
+        <div class="top-area__select-wrapper">
+          <select name="" id="" class="city-choise">
+            <option value="">г. Москва</option>
+            <option value="">г. Париж</option>
+            <option value="">г. Лондон</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-7 d-none d-md-block top-area__middle">
+        <ul class="top-list">
+          <li>Скидки до 50%</li>
+          <li>Новая коллекция</li>
+          <li>Подлинные товары</li>
+        </ul>
+      </div>
+      <div class="col-3 col-md-1 offset-lg-1 top-area__right">
+        <a href="#" class="log-in"><span>Войти</span>
+          <img src="images/login.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<header class="site-header js-mobilemenu-panel">
+	<div class="site-header__inner">
+  <div class="container">
+    <div class="row">
+      <div class="site-header__top col-12">
+        <ul class="main-nav">
+          <li><a href="#">Образы</a></li>
+          <li><a href="#">Новинки</a></li>
+          <li><a href="#">Одежда</a></li>
+          <li><a href="#">Обувь</a></li>
+          <li><a href="#">Аксессуары</a></li>
+          <li><a href="#">Бренды</a></li>
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Спорт</a></li>
+          <li><a href="#">Красота</a></li>
+          <li><a href="#">Дом</a></li>
+          <li><a href="#">Тренды</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+        <div class="site-header__cart-cont d-none d-lg-block">
+          <a href="#" class="mini-cart">
+            <span class="mini-cart__inner">
+              <span class="mini-cart__total">0</span>
+              <span class="mini-cart__price">0 ₽</span>
+            </span>
+            <img src="images/cart.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 site-header__left">
+        <ul class="gender-nav">
+          <li class="active"><a href="#">Женщинам</a></li>
+          <li><a href="#">Мужчинам</a></li>
+          <li><a href="#">Детям</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-4 col-xl-5 site-header__middle">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="col-12 col-lg-4 col-xl-3 site-header__right">
+        <div class="search-block">
+         
+          <input class="search-block__inp"></input>
+          <button class="search-block__btn">
+          	<img src="images/search.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>

@@ -5,13 +5,24 @@
 	@font-face { font-family: $font_name; font-display: swap; src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2"); font-weight: #{$weight}; font-style: #{$style}; }
 }
 
-@import 'base/fonts'; 
-@import 'base/grid';
+// @import 'base/fonts'; 
+// @import 'base/grid';
 @import 'base/base';
 @import 'layout/buttons';
 @import 'layout/form';
-
+@import '../modules/burger/burger';
 @import 'layout/header';
+@import '../modules/main-slider/slider';
+@import '../modules/gender-section';
+@import '../modules/advantages-section';
+@import '../modules/wait-section';
+@import '../modules/brend-slider/slider';
+@import '../modules/about-section';
+@import 'layout/brends';
 @import 'layout/footer';
+
+
+
+
 
 

@@ -1,0 +1,52 @@
+.wait-area {
+  background: #daea58;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+ 
+
+  @media (min-width: 768px) {
+     padding-top: 50px;
+  padding-bottom: 63px;
+    background: #daea58 url(../images/wait-bg.jpg) center top no-repeat;
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+
+  &__list {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 32px;
+
+    @media (min-width: 768px) {
+    	font-size: 18px;
+    }
+
+    li{
+    	margin-bottom: 8px;
+    }
+  }
+
+  &__btn-cont {
+  	
+  	a{
+  		display: inline-block;
+  		margin-right: 15px;
+  	}
+    img {
+      
+      display: block;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

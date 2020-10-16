@@ -6,7 +6,9 @@
   @return m#{i}n(#{$numbers});
 }
 
-@import '../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox';
+// @import '../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox';
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid';
 @import '../../node_modules/swiper/swiper-bundle.css';
 
 // @import 'layout/footer';

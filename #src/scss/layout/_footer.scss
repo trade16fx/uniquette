@@ -1,0 +1,130 @@
+.site-footer {
+  background-color: #5601b7;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: #ffffff;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }  
+
+  &__left {
+  	
+  }
+
+  &__way {
+  	margin-bottom: 30px;
+  	
+
+  	img{
+  		margin: 0 5px;
+  	}
+  }
+
+  &__title {
+  	text-transform: uppercase;
+  	font-size: 14px;
+font-weight: 700;
+letter-spacing: -0.14px;
+margin-bottom: 28px;
+
+  }
+
+  &__pay {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+
+  &__contact {
+  	margin-bottom: 30px;
+  }
+
+  &__phone {
+  	font-size: 18px;
+font-weight: 700;
+margin-bottom: 22px;
+  }
+
+  &__sotial {
+
+  	display: flex;
+  	
+  	align-items: center;
+  	justify-content: space-between;
+  	width: 172px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+  }
+
+  &__right {
+  	img{
+  		margin-bottom: 10px;
+  		display: block;
+  		margin-left: auto;
+  		width: 135px;
+  	}
+  }
+}
+
+.footer-nav {
+  display: none;
+
+  @media (min-width: 992px) {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    text-align: left;
+    &:last-of-type{
+    	margin-right: 0;
+    }
+  }
+  @media (min-width: 1400px) {
+  	margin-right: 70px;
+  	margin-left: 20px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    text-decoration: none;
+  }
+}
+
+.copy {
+  color: rgba(157, 156, 156, .8);
+  font-size: 11px;
+  letter-spacing: -0.11px;
+  	@media (min-width: 992px) { 
+  		text-align: left;
+    }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover{
+    	text-decoration: none;
+    }
+
+  }
+}
+
+.sotial-block {}
